@@ -1,4 +1,3 @@
-import 'cypress-drag-drop';
 
 describe('Trello Test', function() {
   beforeEach('login', () => {
