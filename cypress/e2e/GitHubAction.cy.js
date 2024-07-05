@@ -5,7 +5,7 @@ describe('Trello Test', function() {
     cy.get("#username").type("victor.zano@gmail.com");
     cy.get("#login-submit").click();
     cy.wait(2000);
-    cy.get("#password").type("FauR3S1qve*");
+    cy.get("#password").type("");
     cy.get("#login-submit").click();
     cy.wait(5000);
     cy.visit("https://trello.com/b/6IjE1UlQ/testtrello");
